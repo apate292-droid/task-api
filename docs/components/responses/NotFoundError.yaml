@@ -1,0 +1,6 @@
+description:
+content:
+  application/json:
+    schema:
+      $ref: ../schemas/NotFoundError.yaml
+      
