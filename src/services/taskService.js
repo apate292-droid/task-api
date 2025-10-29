@@ -8,5 +8,5 @@ export async function createTask(newTask) {
   return taskRepository.create(newTask);
 }
 export async function getTaskById(id) {
-  return await taskRepo.getTaskById(id);
+  return await taskRepository.getTaskById(id);
 }
